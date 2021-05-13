@@ -6,7 +6,14 @@ import './assets/styles/theme.css'
 import './assets/styles/custom.css'
 
 export default function (Vue, { router, head, isClient }) {
-  Vue.prototype.host = process.env.GRIDSOME_API_URL
+  Vue.mixin({
+    data () {
+      return {
+        host: process.env.GRIDSOME_API_URL
+      }
+    }
+  })
+  // Vue.prototype.host = process.env.GRIDSOME_API_URL
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   // 注册filter
