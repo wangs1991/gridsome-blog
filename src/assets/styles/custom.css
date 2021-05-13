@@ -1,0 +1,27 @@
+.pagination {
+  margin-top: 40px;
+  text-align: center;
+}
+.pagination a {
+  display: inline-block;
+  min-width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  border: 1px solid #2b2b2b;
+  border-radius: 2px;
+  margin-left: 4px;
+  margin-right: 4px;
+  text-decoration: none;
+  font-size: 12px;
+}
+.pagination a.active {
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+.categories a {
+  display: inline-block;
+  margin-left: 4px;
+  margin-right: 4px;
+}
