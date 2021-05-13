@@ -26,10 +26,10 @@
           </div>
           <div class="content" data-v-7f3c42a8>
             <p>
-              <img class="g-image g-image--lazy" :src="host + post.cover.url" />
+              <img class="g-image" :src="host + post.cover.url" />
               <noscript>
                 <img
-                  class="g-image g-image--lazy g-image--loaded"
+                  class="g-image g-image--loaded"
                   :src="host + post.cover.url"
                   width="2560"
                 />

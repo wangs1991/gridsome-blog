@@ -11,7 +11,7 @@
             <g-link class="project-link" data-v-50cbff3e :to="{ path: '/post/' + item.node.id }">
               <img
                 :alt="item.node.cover.name"
-                class="thumbnail g-image g-image--lazy g-image--loaded"
+                class="thumbnail g-image g-image--loaded"
                 data-v-50cbff3e
                 :src="host + item.node.cover.url"
                 sizes="(max-width: 2560px) 100vw, 2560px"
