@@ -13,7 +13,7 @@
                 :alt="item.node.cover.name"
                 class="thumbnail g-image g-image--lazy g-image--loaded"
                 data-v-50cbff3e
-                :srcset="host + item.node.cover.url"
+                :src="host + item.node.cover.url"
                 sizes="(max-width: 2560px) 100vw, 2560px"
               />
               <noscript data-v-50cbff3e>
