@@ -63,7 +63,7 @@ export default {
       const { name, email, message } = this
 
       try {
-        const { data } = await axios.post('http://localhost:1337/messages', {
+        const { data } = await axios.post(this.host + '/messages', {
           name,
           email,
           message
